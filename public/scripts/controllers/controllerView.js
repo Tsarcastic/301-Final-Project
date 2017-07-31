@@ -1,11 +1,13 @@
 'use strict'
 
-var user = "N/A"
+var person = "N/A"
 
 function readData(event) {
   event.preventDefault();
-  var user = theForm.name.value;
+  var person = theForm.name.value;
   console.log(user + " recorded as the user.")
 }
+
+localStorage.setItem('user', person)
 
 $('#submit').on('click', readData)
