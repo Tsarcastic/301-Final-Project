@@ -53,16 +53,16 @@
   </script>
 
   <script id="repo-template" type="text/x-handlebars-template">
-      <li>
-        <a href="{{html_url}}" target="_blank"><h3>{{name}}</h3></a>
-        <p>Description: {{description}}</p>
-        <p>Language: {{language}}</p>
-        <p>Created: {{created_at}}</p>
-        <p>Last updated: {{updated_at}}</p>
-        {{#if watchers_count}}
-          <p>{{watchers_count}} watching this repo</p>
-        {{/if}}
-      </li>
+    <li>
+      <a href="{{html_url}}" target="_blank"><h3>{{name}}</h3></a>
+      <p>Description: {{description}}</p>
+      <p>Language: {{language}}</p>
+      <p>Created: {{created_at}}</p>
+      <p>Last updated: {{updated_at}}</p>
+      {{#if watchers_count}}
+      <p>{{watchers_count}} watching this repo</p>
+      {{/if}}
+    </li>
   </script>
 
 </head>
@@ -97,22 +97,32 @@
       <h3>Jobs</h3>
       <hr>
       <div class="three columns">
-
-      </div>
-      <div class="three columns">
-      </div>
-      <div class="three columns">
+        <form id="theForm">
+          <fieldset>
+            <input id="name" type="text" placeholder="Enter User Name"></input>
+            <button id="submit"></button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="three columns">
+        </div>
+        <div class="three columns">
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container" id="Projects">
-    <h3>Events</h3>
-    <hr>
-    <div class="row" id="web">
+    <div class="container" id="Projects">
+      <h3>Events</h3>
+      <hr>
+      <div class="row" id="web">
+      </div>
+      <div class="row" id="art">
+      </div>
+      <div class="row" id="statData">
+      </div>
     </div>
-    <div class="row" id="art">
-    </div>
-    <div class="row" id="statData">
+    <div class="container" id="Repos">
+      <h3>Git Repos</h3>
+      <hr>
     </div>
   </div>
   <div class="container" id="Repos">
@@ -143,9 +153,23 @@
   <script src="scripts/controllers/repo-controller.js" charset="utf-8"></script>
   <script src="scripts/controllers/routes.js" charset="utf-8"></script> -->
 
-</body>
 
-</html>
+    <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script src="scripts/controllers/controllerView.js" charset="utf-8"></script>
+    <!-- <script src="scripts/models/projects.js" charset="utf-8"></script>
+    <script src="scripts/models/git-projects.js" charset="utf-8"></script>
+    <script src="scripts/controllers/project-controller.js" charset="utf-8"></script>
+    <script src="scripts/controllers/skills-controller.js" charset="utf-8"></script>
+    <script src="scripts/controllers/repo-controller.js" charset="utf-8"></script> -->
+
+
+  </body>
+
+  </html>
 
 </body>
 </html>

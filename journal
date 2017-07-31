@@ -1,0 +1,7 @@
+<h2> Monday </h2>
+12:00
+  We have a wireframe & basic functionality with Codewars. Next step is to create
+  the server.js file and the database for our notes.
+2:15
+  Laid down the foundation of our database. We're now going to build a form to get
+  user info so we can test if that's going to work.
