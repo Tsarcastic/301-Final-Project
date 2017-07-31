@@ -8,7 +8,7 @@ const requestProxy = require('express-request-proxy');
 const PORT = process.env.PORT || 3000;
 const app = express();
 const conString = 'postgres://postgres:1Bash2Bash0110!:@localhost:5432';
-const client = new pg.client(conString);
+const client = new pg.Client(conString);
 client.connect();
 client.on('error', err => console.error(err));
 app.use(bodyParser.json());
@@ -28,10 +28,10 @@ app.get('', function(request, response) {
 // }
 
 // app.get('/github/*', proxyGitHub);
-let currentUser = JSON.parse(localStorage.user);
+let currentUser = JSON.parse(localStorage.getItem("user"));
 app.get('/notes', (request, response) => {
   client.query(`
-    SELECT notes FROM `${currentUser}`;`
+    SELECT notes FROM ${currentUser};`
   )
   .then(result => response.send(result.rows))
   .catch(console.error);
