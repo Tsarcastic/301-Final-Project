@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const requestProxy = require('express-request-proxy');
 const PORT = process.env.PORT || 3000;
 const app = express();
-const conString = 'postgres://postgres:1Bash2Bash0110!:@localhost:5432';
+const conString = 'postgres://postgres:1Bash2Bash0110!@localhost:5432/devestate';
 const client = new pg.Client(conString);
 client.connect();
 client.on('error', err => console.error(err));
@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('./public'));
 
 app.get('', function(request, response) {
-  response.sendfile('index.html', {root: './'})
+  response.sendfile('index.html', {root: './public'})
 });
 
 // function proxyGitHub(request, response) {
@@ -27,21 +27,23 @@ app.get('', function(request, response) {
 //   }))(request, response);
 // }
 
+
 // app.get('/github/*', proxyGitHub);
-let currentUser = JSON.parse(localStorage.getItem("user"));
-app.get('/notes', (request, response) => {
-  client.query(`
-    SELECT notes FROM ${currentUser};`
-  )
-  .then(result => response.send(result.rows))
-  .catch(console.error);
-});
+// app.get('/notes', (request, response) => {
+//   let currentUser = app.user;
+//   client.query(`
+//     SELECT notes FROM ${currentUser};`
+//   )
+//   .then(result => response.send(result.rows))
+//   .catch(console.error);
+// });
 
 app.listen(PORT, function() {
   console.log(`'Listening on port: ${PORT}'`);
 });
 
 function loadDB() {
+  let currentUser = app.user;
   client.query(`
     CREATE TABLE IF NOT EXISTS
     ${currentUser} (
