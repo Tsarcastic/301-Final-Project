@@ -1,0 +1,61 @@
+[{
+  "name": "Currying Functions",
+  "dificulty": "7",
+  "link": "http://www.codewars.com/kata/currying-functions-multiply-all-elements-in-an-array"
+}, {
+  "name": "Odd or Even?",
+  "dificulty": "7",
+  "link": "http://www.codewars.com/kata/odd-or-even"
+}, {
+  "name": "Print a rectangle using asterisks",
+  "dificulty": "7",
+  "link": "http://www.codewars.com/kata/print-a-rectangle-using-asterisks"
+}, {
+  "name": "Say Hello!",
+  "dificulty": "7",
+  "link": "http://www.codewars.com/kata/say-hello"
+}, {
+  "name": "Band Name Generator",
+  "dificulty": "7",
+  "link": "http://www.codewars.com/kata/band-name-generator"
+}, {
+  "name": "Clocky McClock-Face",
+  "dificulty": "6",
+  "link": "http://www.codewars.com/kata/clocky-mc-clock-face"
+}, {
+  "name": "Words to Hex",
+  "dificulty": "6",
+  "link": "http://www.codewars.com/kata/words-to-hex"
+}, {
+  "name": "String Average",
+  "dificulty": "6",
+  "link": "http://www.codewars.com/kata/string-average"
+}, {
+  "name": "Array Deep Count",
+  "dificulty": "6",
+  "link": "http://www.codewars.com/kata/array-deep-count"
+}, {
+  "name": "Extract File Name",
+  "dificulty": "6",
+  "link": "https://www.codewars.com/kata/extract-file-name"
+}, {
+  "name": "Basic Denico",
+  "dificulty": "5",
+  "link": "https://www.codewars.com/kata/basic-denico"
+}, {
+  "name": "Hamster Me",
+  "dificulty": "5",
+  "link": "https://www.codewars.com/kata/hamster-me"
+}, {
+  "name": "Find the Unique String",
+  "dificulty": "5",
+  "link": "https://www.codewars.com/kata/find-the-unique-string"
+}, {
+  "name": "Sum of Pairs",
+  "dificulty": "5",
+  "link": "https://www.codewars.com/kata/sum-of-pairs"
+}, {
+  "name": "Double Cola",
+  "dificulty": "5",
+  "link": "https://www.codewars.com/kata/double-cola"
+}]
