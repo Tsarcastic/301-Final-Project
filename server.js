@@ -25,26 +25,20 @@ app.use(bodyParser.urlencoded({
 
 // posting to server
 
-
-
-
-
-
-
 app.use(express.static('./public'));
 
-
-
-app.post('/', urlencodedParser, function(request, response) {
+app.post('/monkey', urlencodedParser, function(request, response) {
   client.query(
-    'INSERT INTO users(user) VALUES($1) ON CONFLICT DO NOTHING', [request],
-    function(err) {
+    'INSERT INTO users(user) VALUES($1) ON CONFLICT DO NOTHING;', [request.body.user])
+    .then(function(err) {
       if (err) console.error(err);
     }
-  )
 
+)
 
-})
+});
+
+loadDB();
 
 app.listen(PORT, function() {
   console.log(`'Listening on port: ${PORT}'`);
@@ -54,11 +48,11 @@ function loadDB() {
   console.log('yes loadDB is running')
   client.query(`
     CREATE TABLE IF NOT EXISTS
-  users (
-    user_id SERIAL PRIMARY KEY,
-    user VARCHAR(255) UNIQUE NOT NULL,
-  );`
-)
+    users (
+      user_id SERIAL PRIMARY KEY,
+      user_name VARCHAR(255) UNIQUE NOT NULL
+    );`
+  )
   // .then(loadUsers~x~)
   .catch(console.error);
 
@@ -66,7 +60,7 @@ function loadDB() {
     CREATE TABLE IF NOT EXISTS
     notes (
       notes_id SERIAL PRIMARY KEY,
-      user_id INTEGER NOT NULL REFERENCES users(user_id),
+      user_id INTEGER NOT NULL REFERENCES users (user_id),
       "published_on" DATE,
       body TEXT NOT NULL
     );`
