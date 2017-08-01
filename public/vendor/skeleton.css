@@ -57,7 +57,7 @@
     margin-left: 4%; }
   .column:first-child,
   .columns:first-child {
-    margin-left: 0; }
+    margin-left: 13%; }
 
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
@@ -170,7 +170,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  display: inline-block;
+  display:block;
   height: 38px;
   padding: 0 30px;
   color: #555;

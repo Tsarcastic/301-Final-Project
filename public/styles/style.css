@@ -1,3 +1,73 @@
 * {
-  
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  width: 30%;
+}
+
+#git-button {
+  font-weight: bold;
+  color: white;
+  background-color: #ff7f00;
+}
+/*//NAV STUFF//*/
+nav {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+nav ul {
+  display: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 2%;
+  margin-right: 2%;
+}
+
+nav i.fa.fa-navicon {
+  font-size: 200%;
+}
+
+@media (min-width: 1000px) {
+  /*Isaiah is driver making the nav fixed*/
+  nav, nav ul, nav ul li {
+    position: relative;
+  }
+  /*End of Isaiah driver*/
+  nav ul {
+    display: block;
+  }
+  nav i.fa.fa-navicon {
+    display: none;
+  }
+  /*#Projects hr + div{
+    margin-left: 13%;
+  }*/
+}
+
+nav:hover ul {
+  display: block;
+}
+
+iframe {
+  display: none;
+}
+
+#katas .three {
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #dedede;
+}
+
+#katas .three p {
+  color: #ff7f00;
 }
