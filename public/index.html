@@ -16,8 +16,8 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!--
-  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> -->
+
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -27,14 +27,19 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  //TODO
-  <!-- <link rel="icon" type="image/png" href="images/TurtleBird_Logo.png"> -->
+  <link rel="icon" type="image/png" href="images/devastate-icon.png">
 
   <!-- Handlbars.js Templates
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script id="address-template" type="text/x-handlebars-template">
-    {{#each project}}
-
+    {{#each kata}}
+    <div class="three columns">
+      <h4>{{name}}</h4>
+      <p>{{difficulty}} Kyu</p>
+    </div>
+    <!-- <div id="{{name}}" class="twelve columns">
+    <iframe src="{{link}}" width="100%" height="300px"></iframe>
+  </div> -->
     {{/each}}
   </script>
 
@@ -74,56 +79,62 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container" id="main">
     <header>
-      <h1>devEstate
-        <hr>
+      <img id="logo" src="/images/devestate-logo-full.png" alt="">
+      <hr>
       </h1>
       <nav>
         <i class="fa fa-navicon"></i>
         <ul>
-          <li><a href="#">Nav1</a></li>
-          <li><a href="#">Nav2</a></li>
-          <li><a href="#">Nav3</a></li>
+          <li><a href="#">New Note</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">MDN</a></li>
           <li><a target="_blank" href="https://github.com">Github</a></li>
         </ul>
       </nav>
     </header>
     <div class="row">
       <div class="twelve columns">
-        <iframe src="https://www.codewars.com/kata/currying-functions-multiply-all-elements-in-an-array" width="100%" height="300px"></iframe>
+
       </div>
     </div>
   </div>
-  <div class="container" id="Skills">
+  <div class="container" id="notes">
     <div class="row">
-      <h3>Jobs</h3>
+      <h3>My Notes</h3>
       <hr>
       <div class="three columns">
+      </div>
+      <div class="three columns">
+      </div>
+      <div class="three columns">
+
+      </div>
+    </div>
+  </div>
+  <div class="container" id="repos">
+    <div class="row">
+      <h3>My Repos</h3>
+      <div id="user-form">
+        <p>Enter your github username to access you most recent repos. :)</p>
         <form id="theForm" method="POST" action="/monkey">
           <fieldset>
-            <input id="name" type="text" placeholder="Enter User Name"></input>
-            <button id="submit"></button>
-            </fieldset>
-          </form>
-        </div>
-        <div class="three columns">
-        </div>
-        <div class="three columns">
-        </div>
+            <input id="name" type="text" placeholder="github User Name"></input>
+            <button id="git-button">GIT!</button>
+          </fieldset>
+        </form>
+      </div>
+      <hr>
+      <div class="three columns">
+      </div>
+      <div class="three columns">
+      </div>
+      <div class="three columns">
       </div>
     </div>
-    <div class="container" id="Projects">
-      <h3>Events</h3>
-      <hr>
-      <div class="row" id="web">
-      </div>
-      <div class="row" id="art">
-      </div>
-      <div class="row" id="statData">
-      </div>
-    </div>
-    <div class="container" id="Repos">
-      <h3>Git Repos</h3>
-      <hr>
+  </div>
+  <div class="container">
+    <h3>Train</h3>
+    <hr>
+    <div class="row" id="katas">
     </div>
   </div>
 
@@ -143,34 +154,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-  <!-- <script src="scripts/models/projects.js" charset="utf-8"></script>
-  <script src="scripts/models/git-projects.js" charset="utf-8"></script>
+  <script src="scripts/models/katas.js" charset="utf-8"></script>
+  <!--<script src="scripts/models/git-projects.js" charset="utf-8"></script>
   <script src="scripts/controllers/project-controller.js" charset="utf-8"></script>
   <script src="scripts/controllers/skills-controller.js" charset="utf-8"></script>
   <script src="scripts/controllers/repo-controller.js" charset="utf-8"></script>
   <script src="scripts/controllers/routes.js" charset="utf-8"></script> -->
 
 
-    <!-- End Document
+  <!-- End Document
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-    <script src="scripts/controllers/aboutController.js" charset="utf-8"></script>
-    <script src="scripts/controllers/noteController.js" charset="utf-8"></script>
-    <script src="scripts/controllers/routes.js" charset="utf-8"></script>
-
-
-    <!-- <script src="scripts/models/projects.js" charset="utf-8"></script>
-    <script src="scripts/models/git-projects.js" charset="utf-8"></script>
-    <script src="scripts/controllers/project-controller.js" charset="utf-8"></script>
-    <script src="scripts/controllers/skills-controller.js" charset="utf-8"></script>
-    <script src="scripts/controllers/repo-controller.js" charset="utf-8"></script> -->
-
-
-  </body>
-
-  </html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+  <script src="scripts/controllers/aboutController.js" charset="utf-8"></script>
+  <script src="scripts/controllers/noteController.js" charset="utf-8"></script>
+  <script src="scripts/controllers/routes.js" charset="utf-8"></script>
 
 </body>
+
+</html>
+
+</body>
+
 </html>
