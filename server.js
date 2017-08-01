@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const requestProxy = require('express-request-proxy');
 const PORT = process.env.PORT || 3000;
 const app = express();
-const conString = 'postgres://postgres:1357/devestate';
+const conString = 'postgres://postgres:1357@localhost:5432/devestate';
 const client = new pg.Client(conString);
 
 var urlencodedParser = bodyParser.urlencoded({
@@ -35,7 +35,7 @@ app.use(express.static('./public'));
 
 
 
-app.post('/userT', urlencodedParser, function(request, response) {
+app.post('/', urlencodedParser, function(request, response) {
   client.query(
     'INSERT INTO users(user) VALUES($1) ON CONFLICT DO NOTHING', [request],
     function(err) {
@@ -50,10 +50,8 @@ app.listen(PORT, function() {
   console.log(`'Listening on port: ${PORT}'`);
 });
 
-
-
-
 function loadDB() {
+  console.log('yes loadDB is running')
   client.query(`
     CREATE TABLE IF NOT EXISTS
   users (
@@ -61,7 +59,7 @@ function loadDB() {
     user VARCHAR(255) UNIQUE NOT NULL,
   );`
 )
-  .then(loadUsers~x~)
+  // .then(loadUsers~x~)
   .catch(console.error);
 
   client.query(`
@@ -73,6 +71,6 @@ function loadDB() {
       body TEXT NOT NULL
     );`
   )
-  .then(loadNotes~x~)
+  // .then(loadNotes~x~)
   .catch(console.error);
 }
