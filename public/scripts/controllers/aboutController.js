@@ -8,7 +8,7 @@ function readData(e) {
   console.log(person + " recorded as the user.")
   localStorage.setItem('user', person)
   $.post('/index', {
-    person
+    person.body.user: person;
   })
 }
 
