@@ -32,16 +32,16 @@
   <!-- Handlbars.js Templates
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script id="address-template" type="text/x-handlebars-template">
-  {{#each kata}}
-  <div class="three columns">
-    <h4>{{name}}</h4>
-    <p>{{difficulty}} Kyu</p>
-  </div>
-  <!-- <div id="{{name}}" class="twelve columns">
+    {{#each kata}}
+    <div class="three columns">
+      <h4>{{name}}</h4>
+      <p>{{difficulty}} Kyu</p>
+    </div>
+    <!-- <div id="{{name}}" class="twelve columns">
     <iframe src="{{link}}" width="100%" height="300px"></iframe>
   </div> -->
-  {{/each}}
-</script>
+    {{/each}}
+  </script>
 
   <script id="stats-template" type="text/x-handlebars-template">
     <div class="three columns">
@@ -114,7 +114,7 @@
       <h3>My Repos</h3>
       <div id="user-form">
         <p>Enter your github username to access you most recent repos. :)</p>
-        <form>
+        <form id="theForm" method="POST" action="/monkey">
           <fieldset>
             <input id="name" type="text" placeholder="github User Name"></input>
             <button id="git-button">GIT!</button>
