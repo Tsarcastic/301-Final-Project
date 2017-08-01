@@ -47,19 +47,6 @@ var app = app || {};
   };
 
 
-  noteView.index = function(notes) {
-    $('#notes').show().siblings().hide();
-    $('#notes note').remove();
-    notes.forEach(a => $('#notes').append(render(a)))
-    // REVIEW: Call the new unified filter handler function
-    noteView.populateFilters();
-    noteView.handleFilters();
-
-    if ($('#notes note').length > 1) {
-      $('.note-body *:nth-of-type(n+2)').hide();
-    }
-    $('pre code').each((i, block) => hljs.highlightBlock(block));
-  };
 
   module.noteView = noteView;
 })(app);

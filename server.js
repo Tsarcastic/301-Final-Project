@@ -9,19 +9,42 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 const conString = 'postgres://localhost:5432/devestate';
 const client = new pg.Client(conString);
+
+var urlencodedParser = bodyParser.urlencoded({
+  extended: false
+})
+
 client.connect();
 client.on('error', err => console.error(err));
+
 app.use(bodyParser.json());
+
 app.use(bodyParser.urlencoded({
   extended: true
 }));
+
+// posting to server
+
+
+
+
+
+
+
 app.use(express.static('./public'));
 
-app.get('', function(request, response) {
-  response.sendfile('index.html', {
-    root: './public'
-  })
-});
+
+
+app.post('/userT', urlencodedParser, function(request, response) {
+  client.query(
+    'INSERT INTO users(user) VALUES($1) ON CONFLIT DO NOTHING', [request],
+    function(err) {
+      if (err) console.error(err);
+    }
+  )
+
+
+})
 
 app.listen(PORT, function() {
   console.log(`'Listening on port: ${PORT}'`);
