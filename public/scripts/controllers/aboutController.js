@@ -7,7 +7,7 @@ function readData(e) {
   var person = theForm.name.value;
   console.log(person + " recorded as the user.")
   localStorage.setItem('user', person)
-  $.post('/userT', {
+  $.post('/index', {
     person
   })
 }
