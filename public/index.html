@@ -37,46 +37,25 @@
       <h4>{{name}}</h4>
       <p>{{difficulty}} Kyu</p>
     </div>
-    <!-- <div id="{{name}}" class="twelve columns">
-    <iframe src="{{link}}" width="100%" height="300px"></iframe>
-  </div> -->
     {{/each}}
   </script>
   <!-- Notes  handelbar Templates-->
   <script id="note-template" type="text/x-handlebars-template">
-    <li>
+    <div>
       <h3>{{title}}</h3>
       <p>Category: {{category}}</p>
       <p>Body: {{body}}</p>
-    </li>
-  </script>
-
-  <script id="stats-template" type="text/x-handlebars-template">
-    <div class="three columns">
-      <h4>Total Projects</h4>
-      <h2>{{numProjects}}</h2>
-    </div>
-    <div class="three columns">
-      <h4>Average Files</h4>
-      <h2>{{avgFiles}}</h2>
-    </div>
-    <div class="three columns">
-      <h4>Total Files</h4>
-      <h2>{{allFiles}}</h2>
     </div>
   </script>
 
   <script id="repo-template" type="text/x-handlebars-template">
-    <li>
+    <div>
       <a href="{{html_url}}" target="_blank"><h3>{{name}}</h3></a>
       <p>Description: {{description}}</p>
       <p>Language: {{language}}</p>
       <p>Created: {{created_at}}</p>
       <p>Last updated: {{updated_at}}</p>
-      {{#if watchers_count}}
-      <p>{{watchers_count}} watching this repo</p>
-      {{/if}}
-    </li>
+    </div>
   </script>
 
 </head>
@@ -110,32 +89,26 @@
       <h3>My Notes</h3>
       <hr>
       <div class="twelve columns">
-        <form id="noteForm"  action="/users">
+        <form id="theForm">
           <fieldset>
             <input id="title" type="text" placeholder="Title"></input>
-              <input id="category" type="text" placeholder="Category"></input><br>
-                <textarea id="body" type="text" id="article-body" rows="20%" cols="43%"
-                  placeholder="Body"></textarea>
-            <button id="note-button">POST!</button>
+            <input id="category" type="text" placeholder="Category"></input><br>
+            <textarea id="body" type="text" id="article-body" rows="20%" cols="43%" placeholder="Body"></textarea>
+            <button id="post-button">Save</button>
           </fieldset>
         </form>
       </div>
-      <!-- <div class="three columns">
-      </div>
-      <div class="three columns">
-
-      </div> -->
     </div>
   </div>
   <div class="container" id="repos">
     <div class="row">
       <h3>My Repos</h3>
-      <div id="user-form">
+      <div id="gitForm">
         <p>Enter your github username to access you most recent repos. :)</p>
-        <form id="theForm"  action="/user">
+        <form id="userForm">
           <fieldset>
-            <input id="siteName" type="text" placeholder="github User Name"></input>
-            <button id="git-button">GIT!</button>
+            <input id="gitUN" type="text" placeholder="github User Name"></input>
+            <button id="git-button" >GIT!</button>
           </fieldset>
         </form>
       </div>
@@ -175,23 +148,16 @@
   <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
   <script src="scripts/models/katas.js" charset="utf-8"></script>
-  <script src="scripts/models/user.js" charset="utf-8"></script>
+  <script src="scripts/models/note-post.js" charset="utf-8"></script>
   <script src="scripts/models/repos.js" charset="utf-8"></script>
-  <!--<script src="scripts/models/git-projects.js" charset="utf-8"></script>
-  <script src="scripts/controllers/project-controller.js" charset="utf-8"></script>
-  <script src="scripts/controllers/skills-controller.js" charset="utf-8"></script>
-  <script src="scripts/controllers/repo-controller.js" charset="utf-8"></script>
-  <script src="scripts/controllers/routes.js" charset="utf-8"></script> -->
-
 
   <!-- End Document
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-  <script src="scripts/controllers/userController.js" charset="utf-8"></script>
-  <script src="scripts/controllers/noteController.js" charset="utf-8"></script>
-  <script src="scripts/controllers/routes.js" charset="utf-8"></script>
+  <script src="scripts/controllers/note-form.js" charset="utf-8"></script>
+  <script src="scripts/controllers/name-form.js" charset="utf-8"></script>
 
 </body>
 
