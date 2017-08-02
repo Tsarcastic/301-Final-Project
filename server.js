@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 //const conString = 'postgres://postgres:1Bash2Bash0110!@localhost:5432/devestate';
-
 //const conString = 'postgres://postgres:1357@localhost:5432/devestate';
+
 const client = new pg.Client(conString);
 
 var urlencodedParser = bodyParser.urlencoded({
@@ -30,7 +30,9 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static('./public'));
 
-app.post('/monkey', urlencodedParser, function(request, response) {
+app.post('/user', function(request, response) {
+  console.log("REQUEST RECIEVED");
+  console.log(request.body);
   client.query(
     'INSERT INTO users(user) VALUES($1) ON CONFLICT DO NOTHING;', [request.body.user])
     .then(function(err) {
