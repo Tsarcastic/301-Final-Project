@@ -24,5 +24,16 @@ var app = app || {};
       .then(callback);
   };
 
+  User.findWhere = function(userNameField, thisUser, callback) {
+    $.get('/notes/find', {
+        field: userNameField,
+        val: thisUser
+      })
+      .then(console.log)
+  };
+
+
+
+  User.findWhere('user_name', currentUser);
   module.User = User;
 })(app);
