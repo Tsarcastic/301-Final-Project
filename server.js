@@ -10,18 +10,12 @@ const app = express();
 
 //const conString = 'postgres://postgres:1Bash2Bash0110!@localhost:5432/devestate';
 //const conString = 'postgres://postgres:1357@localhost:5432/devestate';
-
+const conString = 'postgres://localhost:5432/devestate';
 const client = new pg.Client(conString);
-
-var urlencodedParser = bodyParser.urlencoded({
-  extended: false
-})
-
 client.connect();
 client.on('error', err => console.error(err));
 
 app.use(bodyParser.json());
-
 app.use(bodyParser.urlencoded({
   extended: true
 }));
@@ -34,12 +28,11 @@ app.post('/user', function(request, response) {
   console.log("REQUEST RECIEVED");
   console.log(request.body);
   client.query(
-    'INSERT INTO users(user) VALUES($1) ON CONFLICT DO NOTHING;', [request.body.user])
-    .then(function(err) {
-      if (err) console.error(err);
+    'INSERT INTO users(user_name) VALUES($1) ON CONFLICT DO NOTHING', [request.body.userName],
+    function(err) {
+      if (err) console.error(err)
     }
-
-)
+  )
 
 });
 
@@ -56,10 +49,8 @@ function loadDB() {
     users (
       user_id SERIAL PRIMARY KEY,
       user_name VARCHAR(255) UNIQUE NOT NULL
-    );`
-  )
-  // .then(loadUsers~x~)
-  .catch(console.error);
+    );`)
+    .catch(console.error);
 
   client.query(`
     CREATE TABLE IF NOT EXISTS
@@ -68,8 +59,7 @@ function loadDB() {
       user_id INTEGER NOT NULL REFERENCES users (user_id),
       "published_on" DATE,
       body TEXT NOT NULL
-    );`
-  )
-  // .then(loadNotes~x~)
-  .catch(console.error);
+    );`)
+    // .then(loadNotes~x~)
+    .catch(console.error);
 }
