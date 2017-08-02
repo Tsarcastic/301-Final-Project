@@ -1,0 +1,2675 @@
+
+
+[
+
+   {
+
+       "id": 96829821,
+
+       "name": "01-mobile-first",
+
+       "full_name": "ThugLifeAquatic/01-mobile-first",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/01-mobile-first",
+
+       "description": null,
+
+       "fork": true,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/01-mobile-first/deployments",
+
+       "created_at": "2017-07-10T23:23:42Z",
+
+       "updated_at": "2017-07-10T23:23:43Z",
+
+       "pushed_at": "2017-07-29T21:38:38Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/01-mobile-first.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/01-mobile-first.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/01-mobile-first.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/01-mobile-first",
+
+       "homepage": null,
+
+       "size": 2187,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "HTML",
+
+       "has_issues": false,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 97400389,
+
+       "name": "05-form-building",
+
+       "full_name": "ThugLifeAquatic/05-form-building",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/05-form-building",
+
+       "description": null,
+
+       "fork": true,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building/deployments",
+
+       "created_at": "2017-07-16T17:48:37Z",
+
+       "updated_at": "2017-06-19T20:47:54Z",
+
+       "pushed_at": "2017-06-19T20:48:06Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/05-form-building.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/05-form-building.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/05-form-building.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/05-form-building",
+
+       "homepage": null,
+
+       "size": 67,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": null,
+
+       "has_issues": false,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 97521365,
+
+       "name": "05-form-building-1",
+
+       "full_name": "ThugLifeAquatic/05-form-building-1",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/05-form-building-1",
+
+       "description": null,
+
+       "fork": true,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/releases{/id}",
+
+      "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/05-form-building-1/deployments",
+
+       "created_at": "2017-07-17T20:54:00Z",
+
+       "updated_at": "2017-07-17T20:54:01Z",
+
+       "pushed_at": "2017-07-18T01:18:08Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/05-form-building-1.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/05-form-building-1.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/05-form-building-1.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/05-form-building-1",
+
+       "homepage": null,
+
+       "size": 109,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "HTML",
+
+       "has_issues": false,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 98208399,
+
+       "name": "10-functional-programming",
+
+       "full_name": "ThugLifeAquatic/10-functional-programming",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/10-functional-programming",
+
+       "description": null,
+
+       "fork": true,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/10-functional-programming/deployments",
+
+       "created_at": "2017-07-24T15:54:44Z",
+
+       "updated_at": "2017-07-24T15:54:46Z",
+
+       "pushed_at": "2017-07-24T21:21:05Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/10-functional-programming.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/10-functional-programming.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/10-functional-programming.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/10-functional-programming",
+
+       "homepage": null,
+
+       "size": 436,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": false,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 98442295,
+
+       "name": "12-rest-and-apis",
+
+       "full_name": "ThugLifeAquatic/12-rest-and-apis",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/12-rest-and-apis",
+
+       "description": null,
+
+       "fork": true,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/12-rest-and-apis/deployments",
+
+       "created_at": "2017-07-26T16:11:08Z",
+
+       "updated_at": "2017-07-26T16:11:09Z",
+
+       "pushed_at": "2017-07-26T17:53:20Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/12-rest-and-apis.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/12-rest-and-apis.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/12-rest-and-apis.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/12-rest-and-apis",
+
+       "homepage": null,
+
+       "size": 442,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": false,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 98473308,
+
+       "name": "13-production-deployment",
+
+       "full_name": "ThugLifeAquatic/13-production-deployment",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+          "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/13-production-deployment",
+
+       "description": null,
+
+       "fork": true,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/13-production-deployment/deployments",
+
+       "created_at": "2017-07-26T23:19:13Z",
+
+       "updated_at": "2017-07-26T23:19:14Z",
+
+       "pushed_at": "2017-07-27T18:03:49Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/13-production-deployment.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/13-production-deployment.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/13-production-deployment.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/13-production-deployment",
+
+       "homepage": null,
+
+       "size": 451,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": false,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 93555214,
+
+       "name": "201-learning-journal",
+
+       "full_name": "ThugLifeAquatic/201-learning-journal",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/201-learning-journal",
+
+       "description": "My 201 Learning Journal",
+
+       "fork": false,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/201-learning-journal/deployments",
+
+       "created_at": "2017-06-06T19:21:21Z",
+
+       "updated_at": "2017-06-06T19:21:21Z",
+
+       "pushed_at": "2017-07-29T20:57:31Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/201-learning-journal.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/201-learning-journal.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/201-learning-journal.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/201-learning-journal",
+
+       "homepage": null,
+
+       "size": 13,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": null,
+
+       "has_issues": true,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 93555892,
+
+       "name": "about-me",
+
+       "full_name": "ThugLifeAquatic/about-me",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/about-me",
+
+       "description": "My \"About Me\" for code 201.",
+
+       "fork": false,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/about-me",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/about-me/deployments",
+
+       "created_at": "2017-06-06T19:28:45Z",
+
+       "updated_at": "2017-06-07T00:33:47Z",
+
+       "pushed_at": "2017-06-13T13:59:33Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/about-me.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/about-me.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/about-me.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/about-me",
+
+       "homepage": null,
+
+       "size": 1418,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": true,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": true,
+
+       "forks_count": 1,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 1,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 94817025,
+
+       "name": "bus-mall",
+
+       "full_name": "ThugLifeAquatic/bus-mall",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/bus-mall",
+
+       "description": "A image picker that tracks the users product preferences.",
+
+       "fork": false,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/bus-mall/deployments",
+
+       "created_at": "2017-06-19T20:15:17Z",
+
+       "updated_at": "2017-06-20T15:52:32Z",
+
+       "pushed_at": "2017-06-26T00:59:50Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/bus-mall.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/bus-mall.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/bus-mall.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/bus-mall",
+
+       "homepage": null,
+
+       "size": 1965,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": true,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": true,
+
+       "forks_count": 1,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 1,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 95050952,
+
+       "name": "bus_mall",
+
+       "full_name": "ThugLifeAquatic/bus_mall",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/bus_mall",
+
+       "description": "Retake",
+
+       "fork": true,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/tags",
+
+      "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/bus_mall/deployments",
+
+       "created_at": "2017-06-21T22:16:37Z",
+
+       "updated_at": "2017-06-21T22:16:38Z",
+
+       "pushed_at": "2017-06-25T04:40:42Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/bus_mall.git",
+
+      "ssh_url": "git@github.com:ThugLifeAquatic/bus_mall.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/bus_mall.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/bus_mall",
+
+       "homepage": null,
+
+       "size": 2041,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": false,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 94576932,
+
+       "name": "chocolate-pizza",
+
+       "full_name": "ThugLifeAquatic/chocolate-pizza",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/chocolate-pizza",
+
+       "description": "Pair programming web page design.",
+
+       "fork": false,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/statuses/{sha}",
+
+      "languages_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/chocolate-pizza/deployments",
+
+       "created_at": "2017-06-16T19:58:43Z",
+
+       "updated_at": "2017-06-16T20:03:49Z",
+
+       "pushed_at": "2017-06-17T00:16:59Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/chocolate-pizza.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/chocolate-pizza.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/chocolate-pizza.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/chocolate-pizza",
+
+       "homepage": null,
+
+       "size": 277,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "HTML",
+
+       "has_issues": true,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 1,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 1,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 94137105,
+
+       "name": "cookie-stand",
+
+       "full_name": "ThugLifeAquatic/cookie-stand",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/cookie-stand",
+
+       "description": "Salmon Cookie Project - Code 201",
+
+       "fork": false,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/cookie-stand/deployments",
+
+       "created_at": "2017-06-12T20:22:51Z",
+
+       "updated_at": "2017-06-13T15:57:07Z",
+
+       "pushed_at": "2017-06-18T02:53:23Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/cookie-stand.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/cookie-stand.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/cookie-stand.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/cookie-stand",
+
+       "homepage": null,
+
+       "size": 1719,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": true,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": true,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 93893950,
+
+       "name": "lab-5",
+
+       "full_name": "ThugLifeAquatic/lab-5",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/lab-5",
+
+       "description": "Repo for lab-5 git practice.",
+
+       "fork": false,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/lab-5",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/lab-5/deployments",
+
+       "created_at": "2017-06-09T20:19:08Z",
+
+       "updated_at": "2017-06-09T20:27:28Z",
+
+       "pushed_at": "2017-06-09T23:15:44Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/lab-5.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/lab-5.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/lab-5.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/lab-5",
+
+       "homepage": null,
+
+       "size": 12,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": true,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 95152333,
+
+       "name": "order-form",
+
+       "full_name": "ThugLifeAquatic/order-form",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/order-form",
+
+       "description": "A simple order management web application.",
+
+       "fork": false,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/order-form",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/order-form/deployments",
+
+       "created_at": "2017-06-22T20:07:34Z",
+
+       "updated_at": "2017-06-23T00:49:54Z",
+
+       "pushed_at": "2017-06-23T14:37:30Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/order-form.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/order-form.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/order-form.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/order-form",
+
+       "homepage": null,
+
+       "size": 1958,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "JavaScript",
+
+       "has_issues": true,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": true,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   },
+
+   {
+
+       "id": 96906667,
+
+       "name": "portfolio",
+
+       "full_name": "ThugLifeAquatic/portfolio",
+
+       "owner": {
+
+           "login": "ThugLifeAquatic",
+
+           "id": 20587556,
+
+           "avatar_url": "https://avatars2.githubusercontent.com/u/20587556?v=4",
+
+           "gravatar_id": "",
+
+           "url": "https://api.github.com/users/ThugLifeAquatic",
+
+           "html_url": "https://github.com/ThugLifeAquatic",
+
+           "followers_url": "https://api.github.com/users/ThugLifeAquatic/followers",
+
+           "following_url": "https://api.github.com/users/ThugLifeAquatic/following{/other_user}",
+
+           "gists_url": "https://api.github.com/users/ThugLifeAquatic/gists{/gist_id}",
+
+           "starred_url": "https://api.github.com/users/ThugLifeAquatic/starred{/owner}{/repo}",
+
+           "subscriptions_url": "https://api.github.com/users/ThugLifeAquatic/subscriptions",
+
+           "organizations_url": "https://api.github.com/users/ThugLifeAquatic/orgs",
+
+           "repos_url": "https://api.github.com/users/ThugLifeAquatic/repos",
+
+           "events_url": "https://api.github.com/users/ThugLifeAquatic/events{/privacy}",
+
+           "received_events_url": "https://api.github.com/users/ThugLifeAquatic/received_events",
+
+           "type": "User",
+
+           "site_admin": false
+
+       },
+
+       "private": false,
+
+       "html_url": "https://github.com/ThugLifeAquatic/portfolio",
+
+       "description": "My web and software development portfolio.",
+
+       "fork": false,
+
+       "url": "https://api.github.com/repos/ThugLifeAquatic/portfolio",
+
+       "forks_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/forks",
+
+       "keys_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/keys{/key_id}",
+
+       "collaborators_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/collaborators{/collaborator}",
+
+       "teams_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/teams",
+
+       "hooks_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/hooks",
+
+       "issue_events_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/issues/events{/number}",
+
+       "events_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/events",
+
+       "assignees_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/assignees{/user}",
+
+       "branches_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/branches{/branch}",
+
+       "tags_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/tags",
+
+       "blobs_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/git/blobs{/sha}",
+
+       "git_tags_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/git/tags{/sha}",
+
+       "git_refs_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/git/refs{/sha}",
+
+       "trees_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/git/trees{/sha}",
+
+       "statuses_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/statuses/{sha}",
+
+       "languages_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/languages",
+
+       "stargazers_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/stargazers",
+
+       "contributors_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/contributors",
+
+       "subscribers_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/subscribers",
+
+       "subscription_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/subscription",
+
+       "commits_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/commits{/sha}",
+
+       "git_commits_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/git/commits{/sha}",
+
+       "comments_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/comments{/number}",
+
+       "issue_comment_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/issues/comments{/number}",
+
+       "contents_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/contents/{+path}",
+
+       "compare_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/compare/{base}...{head}",
+
+       "merges_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/merges",
+
+       "archive_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/{archive_format}{/ref}",
+
+       "downloads_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/downloads",
+
+       "issues_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/issues{/number}",
+
+       "pulls_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/pulls{/number}",
+
+       "milestones_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/milestones{/number}",
+
+       "notifications_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/notifications{?since,all,participating}",
+
+       "labels_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/labels{/name}",
+
+       "releases_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/releases{/id}",
+
+       "deployments_url": "https://api.github.com/repos/ThugLifeAquatic/portfolio/deployments",
+
+       "created_at": "2017-07-11T15:09:15Z",
+
+       "updated_at": "2017-07-11T18:24:34Z",
+
+       "pushed_at": "2017-07-28T21:52:03Z",
+
+       "git_url": "git://github.com/ThugLifeAquatic/portfolio.git",
+
+       "ssh_url": "git@github.com:ThugLifeAquatic/portfolio.git",
+
+       "clone_url": "https://github.com/ThugLifeAquatic/portfolio.git",
+
+       "svn_url": "https://github.com/ThugLifeAquatic/portfolio",
+
+       "homepage": null,
+
+       "size": 1375,
+
+       "stargazers_count": 0,
+
+       "watchers_count": 0,
+
+       "language": "CSS",
+
+       "has_issues": true,
+
+       "has_projects": true,
+
+       "has_downloads": true,
+
+       "has_wiki": true,
+
+       "has_pages": false,
+
+       "forks_count": 0,
+
+       "mirror_url": null,
+
+       "open_issues_count": 0,
+
+       "forks": 0,
+
+       "open_issues": 0,
+
+       "watchers": 0,
+
+       "default_branch": "master"
+
+   }
+
+]
