@@ -20,23 +20,51 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+loadDB();
 // posting to server
 
 app.use(express.static('./public'));
 
 app.post('/user', function(request, response) {
-  console.log("REQUEST RECIEVED");
+  console.log('REQUEST RECIEVED');
   console.log(request.body);
   client.query(
     'INSERT INTO users(user_name) VALUES($1) ON CONFLICT DO NOTHING', [request.body.userName],
     function(err) {
       if (err) console.error(err)
+      query2();
     }
   )
 
+  function query2() {
+    client.query(
+      `SELECT user_id FROM users WHERE user_name=$1`, [request.body.userName],
+      function(err, result) {
+        if (err) console.error(err)
+        query3(result.rows[0].user_id)
+      }
+    )
+  }
+
+  function query3(user_id) {
+    client.query(
+      `INSERT INTO
+    notes(user_id,title,category,body)
+    VALUES($1,$2,$3,$4);`, [
+        user_id,
+        request.body.title,
+        request.body.category,
+        request.body.body
+      ],
+      function(err) {
+        if (err) console.error(err);
+        response.send('NEW NOTE ADDED')
+      }
+    );
+  }
+
 });
 
-loadDB();
 
 app.listen(PORT, function() {
   console.log(`'Listening on port: ${PORT}'`);
@@ -56,8 +84,9 @@ function loadDB() {
     CREATE TABLE IF NOT EXISTS
     notes (
       notes_id SERIAL PRIMARY KEY,
-      user_id INTEGER NOT NULL REFERENCES users (user_id),
-      "published_on" DATE,
+      user_id INTEGER NOT NULL REFERENCES users(user_id),
+      title VARCHAR(255) NOT NULL,
+      category VARCHAR(20),
       body TEXT NOT NULL
     );`)
     // .then(loadNotes~x~)
