@@ -12,8 +12,11 @@ var app = app || {};
 
   User.prototype.createUser = function(callback) {
     $.post('/user', {
-      userName: this.userName
-    })
+        userName: this.userName,
+        title: "TEST-TITLE",
+        category: "TEST-CATEGORY",
+        body: "TEST-BODY"
+      })
       .then(console.log)
       .then(callback);
   };
