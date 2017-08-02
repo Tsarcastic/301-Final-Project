@@ -42,6 +42,14 @@
   </div> -->
     {{/each}}
   </script>
+  <!-- Notes  handelbar Templates-->
+  <script id="note-template" type="text/x-handlebars-template">
+    <li>
+      <h3>{{title}}</h3>
+      <p>Category: {{category}}</p>
+      <p>Body: {{body}}</p>
+    </li>
+  </script>
 
   <script id="stats-template" type="text/x-handlebars-template">
     <div class="three columns">
@@ -101,13 +109,22 @@
     <div class="row">
       <h3>My Notes</h3>
       <hr>
-      <div class="three columns">
+      <div class="twelve columns">
+        <form id="noteForm"  action="/users">
+          <fieldset>
+            <input id="title" type="text" placeholder="Title"></input>
+              <input id="category" type="text" placeholder="Category"></input><br>
+                <textarea id="body" type="text" id="article-body" rows="20%" cols="43%"
+                  placeholder="Body"></textarea>
+            <button id="note-button">POST!</button>
+          </fieldset>
+        </form>
       </div>
-      <div class="three columns">
+      <!-- <div class="three columns">
       </div>
       <div class="three columns">
 
-      </div>
+      </div> -->
     </div>
   </div>
   <div class="container" id="repos">
@@ -115,9 +132,9 @@
       <h3>My Repos</h3>
       <div id="user-form">
         <p>Enter your github username to access you most recent repos. :)</p>
-        <form id="theForm" method="POST" action="/user">
+        <form id="theForm"  action="/user">
           <fieldset>
-            <input id="name" type="text" placeholder="github User Name"></input>
+            <input id="siteName" type="text" placeholder="github User Name"></input>
             <button id="git-button">GIT!</button>
           </fieldset>
         </form>

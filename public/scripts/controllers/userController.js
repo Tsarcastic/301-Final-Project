@@ -2,7 +2,7 @@
 
 function readData(e) {
   e.preventDefault();
-  let person = theForm.name.value;
+  let person = theForm.siteName.value;
   localStorage.setItem('user', person);
   let newUser = new app.User(person);
   console.log(newUser);
