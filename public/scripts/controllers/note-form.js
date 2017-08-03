@@ -1,6 +1,7 @@
 'use strict'
 
 function readData(e) {
+
   if( $('#body').val() === '') {
     e.preventDefault();
     console.log('The null value is working');
