@@ -9,6 +9,8 @@ const PORT = process.env.PORT;
 const app = express();
 
 const conString = process.env.DATABASE_URL;
+//const conString = 'postgres://localhost:5432/devestate';
+
 
 
 const client = new pg.Client(conString);
