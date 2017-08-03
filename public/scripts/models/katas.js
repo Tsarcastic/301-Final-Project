@@ -21,7 +21,10 @@
     let data = JSON.parse(localStorage.getItem('kata'));
     console.log(randKatas);
     for (let i = 0; i < 3; i++) {
-      randKatas.push(data[Math.floor(Math.random() * ((data.length - 1) - 0)) + 0])
+      let nextKata = Math.floor(Math.random() * ((data.length - 1) - 0)) + 0;
+      if (i === 0 || !randKatas.includes(data[nextKata])) {
+      randKatas.push(data[nextKata]);
+      }
     }
     console.log(randKatas);
     $('#katas').html(template({
@@ -41,8 +44,6 @@
   katas.kataPreview = () => {
     $('#katas').on('click', 'div', function() {
       this.clicked;
-      console.log($(this).index())
-      console.log(randKatas[$(this).index()].link);
       if (this.clicked === true) {
         $('iframe').css({display: 'none'})
         console.log('Hide!');

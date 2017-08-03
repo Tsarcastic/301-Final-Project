@@ -4,6 +4,7 @@
 
   const repos = {};
   let reposAll = [];
+  let gitID = localStorage.getItem('user');
 
   // LOAD AND RENDER
   const successCallback = function(data) {
@@ -30,9 +31,17 @@
   }
 
   repos.getRepos = () => {
-    console.log("getting!")
-    $.getJSON('/data/repo-test.json')
+    if(localStorage.getItem('user')){
+    console.log('getting!')
+    $.ajax({
+      url: `https://api.github.com/users/${(gitID)}/repos`,
+      method: 'GET',
+      headers: {
+        Authorization: `token PUT_A_TOKEN_HERE`
+      }
+    })
       .then(successCallback, errorCallback);
+    }
   }
 
   repos.sortAll = function() {
