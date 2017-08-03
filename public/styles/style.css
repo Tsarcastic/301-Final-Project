@@ -1,10 +1,13 @@
 /*FORM STYLING*/
 form {
   text-align: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   margin-top: 5%;
 }
-
+textarea, #title, #category {
+  border:1px solid black;
+  width: 50%;
+}
 textarea:focus,
 select:focus,
 #body:focus {
@@ -58,6 +61,7 @@ nav li {
 
 nav i.fa.fa-navicon {
   font-size: 200%;
+      margin-bottom: 5%;
 }
 
 @media (min-width: 1000px) {
@@ -70,11 +74,15 @@ nav i.fa.fa-navicon {
   }
   nav i.fa.fa-navicon {
     display: none;
+
   }
 }
 
 nav:hover ul {
   display: block;
+}
+nav ul {
+  display: none;
 }
 
 /*MAIN CONTENT STYLING*/
@@ -147,7 +155,9 @@ iframe {
   background-color: white;
   color: #ff7f00;
 }
-
+.three{
+  margin-bottom: 3%;
+}
 footer {
   margin-top: 5%;
   height: 50px;
