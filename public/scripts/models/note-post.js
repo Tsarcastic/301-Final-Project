@@ -57,19 +57,6 @@ var app = app || {};
 
   }
 
-
-  // function renderRepos() {
-  //   let template = Handlebars.compile($('#repo-template').html())
-  //   for (let i = 0; i < 3; i++) {
-  //     recent.push(reposAll[i])
-  //   }
-  //   console.log(recent);
-  //   $('#repos').html(template({
-  //     repository: recent
-  //   }))
-  // }
-
   User.findWhere('user_name', currentUser);
   module.User = User;
-  // User.renderNotes();
 })(app);
