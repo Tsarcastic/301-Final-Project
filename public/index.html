@@ -47,6 +47,15 @@
     </div>
   </script>
 
+  <script id="fNote-template" type="text/x-handlebars-template">
+    <div class="twelve columns">
+      <h4>{{title}}</h4>
+      <p>Category: {{category}}</p>
+      <p>{{body}}</p>
+    </div>
+  </script>
+
+
   <script id="repo-template" type="text/x-handlebars-template">
     {{#each repository}}
     <div class="three columns">
@@ -94,9 +103,10 @@
   <div class="container" id="notes">
     <div class="row">
       <h3>My Notes</h3>
-      <a href="#">All Notes</a>
+      <a href="#"><div id="noteListener">All Notes</div></a>
       <hr>
       <div id="noteAppend"></div>
+      <div id="allNotes"></div
       <div class="twelve columns">
         <form id="theForm">
           <fieldset>
