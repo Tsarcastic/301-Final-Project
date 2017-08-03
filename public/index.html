@@ -49,13 +49,14 @@
   </script>
 
   <script id="repo-template" type="text/x-handlebars-template">
-    <div>
-      <a href="{{html_url}}" target="_blank"><h3>{{name}}</h3></a>
+    {{#each repository}}
+    <div class="three columns">
+      <h4>{{name}}</h4>
       <p>Description: {{description}}</p>
-      <p>Language: {{language}}</p>
-      <p>Created: {{created_at}}</p>
       <p>Last updated: {{updated_at}}</p>
+      <a href="{{html_url}}" target="_blank"><h3>GO!</h3></a>
     </div>
+    {{/each}}
   </script>
 
 </head>
@@ -149,6 +150,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
   <script src="scripts/models/katas.js" charset="utf-8"></script>
   <script src="scripts/models/note-post.js" charset="utf-8"></script>
+  <script src="scripts/models/repo.js" charset="utf-8"></script>
 
 
   <!-- End Document
