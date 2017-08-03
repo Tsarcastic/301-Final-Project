@@ -27,7 +27,7 @@ var app = app || {};
   const successCallback = function(data) {
     userNotes = data;
     console.log(userNotes);
-
+    User.renderNotes();
   }
 
   const errorCallback = function(err) {
@@ -41,9 +41,35 @@ var app = app || {};
       })
       .then(successCallback, errorCallback)
   };
+  let recentNotes = [];
+  User.renderNotes = function() {
+    let noteTemplate = Handlebars.compile($('#note-template').html());
+    for (var i = userNotes.length - 1; i > userNotes.length - 4; i--) {
+      recentNotes.push(userNotes[i]);
+
+      console.log(userNotes[i])
+      $('#noteAppend').append(noteTemplate({
+        title: userNotes[i].title,
+        category: userNotes[i].category,
+        body: userNotes[i].body,
+      }))
+    }
+
+  }
 
 
+  // function renderRepos() {
+  //   let template = Handlebars.compile($('#repo-template').html())
+  //   for (let i = 0; i < 3; i++) {
+  //     recent.push(reposAll[i])
+  //   }
+  //   console.log(recent);
+  //   $('#repos').html(template({
+  //     repository: recent
+  //   }))
+  // }
 
   User.findWhere('user_name', currentUser);
   module.User = User;
+  // User.renderNotes();
 })(app);
