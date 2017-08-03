@@ -12,6 +12,7 @@ const app = express();
 const conString = 'postgres://postgres:1357@localhost:5432/devestate';
 //const conString = 'postgres://localhost:5432/devestate';
 
+
 const client = new pg.Client(conString);
 client.connect();
 client.on('error', err => console.error(err));
@@ -25,6 +26,19 @@ loadDB();
 // posting to server
 
 app.use(express.static('./public'));
+
+
+
+app.get('/notes/find', (request, response) => {
+  let sql = `SELECT * FROM notes
+            INNER JOIN users
+            ON notes.user_id=users.user_id
+            WHERE ${request.query.field}=$1`
+
+  client.query(sql, [request.query.val])
+    .then(result => response.send(result.rows))
+    .catch(console.error);
+})
 
 app.post('/user', function(request, response) {
   console.log('REQUEST RECIEVED');
