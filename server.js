@@ -5,11 +5,12 @@ const fs = require('fs');
 const express = require('express');
 const bodyParser = require('body-parser');
 const requestProxy = require('express-request-proxy');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 const app = express();
 
 const conString = process.env.DATABASE_URL;
 //const conString = 'postgres://localhost:5432/devestate';
+
 
 
 const client = new pg.Client(conString);
