@@ -1,7 +1,4 @@
-* {
-
-}
-
+/*FORM STYLING*/
 form {
   text-align: center;
   margin: 0 auto;
@@ -24,10 +21,16 @@ button {
   background-color: #ff7f00;
 }
 
-a {
+nav a {
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #ff7f00;
   text-decoration: none;
 }
 
+/*LOGO & IMAGES*/
 img {
   width: 10%;
 }
@@ -58,24 +61,28 @@ nav i.fa.fa-navicon {
 }
 
 @media (min-width: 1000px) {
-  /*Isaiah is driver making the nav fixed*/
   nav, nav ul, nav ul li {
     position: relative;
   }
-  /*End of Isaiah driver*/
+
   nav ul {
     display: block;
   }
   nav i.fa.fa-navicon {
     display: none;
   }
-  /*#Projects hr + div{
-    margin-left: 13%;
-  }*/
 }
 
 nav:hover ul {
   display: block;
+}
+
+/*MAIN CONTENT STYLING*/
+a {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
 }
 
 #kata-prev{
@@ -98,6 +105,19 @@ iframe {
   background-color: #dedede;
 }
 
+#notes a {
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #ff7f00;
+  text-decoration: none;
+}
+
+#notes a:hover {
+  color: black;
+}
+
 #repos .three {
   padding: .5em;
   cursor: pointer;
@@ -108,6 +128,7 @@ iframe {
 }
 
  #katas .three {
+  padding: .5em;
   cursor: pointer;
   height: 10em;
   border-radius: 5px;
@@ -115,6 +136,20 @@ iframe {
   background-color: #dedede;
 }
 
-#katas .three p {
+.three h4 {
+  margin: 0;
+}
+
+.three p {
+  margin: 0 auto;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
   color: #ff7f00;
+}
+
+footer {
+  margin-top: 5%;
+  height: 50px;
+  background-color: #ff7f00;
 }
