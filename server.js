@@ -8,7 +8,8 @@ const requestProxy = require('express-request-proxy');
 const PORT = process.env.PORT;
 const app = express();
 
-const conString = process.env.DATABASE_URL;
+conString = process.env.DATABASE_URL;
+//const conString = 'postgres://postgres:1Bash2Bash0110!@localhost:5432/devestate';
 //const conString = 'postgres://localhost:5432/devestate';
 
 

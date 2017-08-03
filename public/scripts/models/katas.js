@@ -22,8 +22,10 @@
     console.log(randKatas);
     for (let i = 0; i < 3; i++) {
       let nextKata = Math.floor(Math.random() * ((data.length - 1) - 0)) + 0;
-      if (i === 0 || !randKatas.includes(data[nextKata])) {
-      randKatas.push(data[nextKata]);
+      if (!randKatas.includes(data[nextKata])) {
+        randKatas.push(data[nextKata]);
+      } else {
+        randKatas.push(data[nextKata + 1]);
       }
     }
     console.log(randKatas);
@@ -45,11 +47,15 @@
     $('#katas').on('click', 'div', function() {
       this.clicked;
       if (this.clicked === true) {
-        $('iframe').css({display: 'none'})
+        $('iframe').css({
+          display: 'none'
+        })
         console.log('Hide!');
         this.clicked = false;
       } else {
-        $('iframe').css({display: 'block'})
+        $('iframe').css({
+          display: 'block'
+        })
         $('#show-kata').attr('src', randKatas[$(this).index()].link);
         console.log('Show');
         this.clicked = true;
