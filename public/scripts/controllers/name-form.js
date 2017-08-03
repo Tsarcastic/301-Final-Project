@@ -1,5 +1,7 @@
 'use strict'
 
+$('#main').siblings('.container').hide();
+$('nav').hide();
 
 function readUser() {
   // e.preventDefault();
@@ -8,6 +10,7 @@ function readUser() {
     localStorage.setItem('user', gitUser);
     console.log(gitUser + ' recorded as the user.')
     $('#gitForm').hide()
+    location.reload();
   } else {
     alert("You need to enter your gitHub user name")
 
@@ -23,6 +26,8 @@ function clearUser() {
 
 if (localStorage.user !== undefined) {
   $('#gitForm').hide()
+  $('.container').show();
+  $('nav').show();
 }
 
 $('#git-button').on('click', readUser);
