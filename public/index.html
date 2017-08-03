@@ -43,7 +43,7 @@
   <script id="note-template" type="text/x-handlebars-template">
     <div class="three columns">
       <h4>{{title}}</h4>
-      <p>Category: {{category}}</p>
+      <p>{{category}}</p>
     </div>
   </script>
 
@@ -60,7 +60,7 @@
     {{#each repository}}
     <div class="three columns">
       <h4>{{name}}</h4>
-      <a href="{{html_url}}" target="_blank"><h3>GO!</h3></a>
+      <a href="{{html_url}}" target="_blank"><p>GO!</p></a>
     </div>
     {{/each}}
   </script>
@@ -81,7 +81,7 @@
         <ul>
           <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">MDN</a></li>
           <li><a target="_blank" href="https://github.com">Github</a></li>
-          <li><a id="logout" href="#">Logout</a></li>
+          <li><a id="logout" href="">Logout</a></li>
         </ul>
       </nav>
     </header>
@@ -141,16 +141,7 @@
     </div>
   </div>
 
-  <footer>
-    <nav>
-      <i class="fa fa-navicon"></i>
-      <ul>
-        <li><a href="#">nav Bottom</a></li>
-        <li><a href="#">nav Bottom</a></li>
-        <li><a href="#">nav Bottom</a></li>
-      </ul>
-    </nav>
-  </footer>
+  <footer></footer>
 
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
