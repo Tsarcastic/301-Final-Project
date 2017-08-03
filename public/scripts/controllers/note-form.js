@@ -7,7 +7,8 @@ function readData(e) {
   let category = theForm.category.value;
   let body = theForm.body.value;
   localStorage.setItem('user', person);
-  let newUser = new app.User(person, title, category, body);
+  let newUser = new app.User(person,title,category
+  ,body);
   console.log(newUser);
   newUser.createUser();
   console.log(person + ' recorded as the user.')
