@@ -1,8 +1,8 @@
 'use strict'
 
 
-function readUser(e) {
-  e.preventDefault();
+function readUser() {
+  // e.preventDefault();
   var gitUser = userForm.gitUN.value;
   if (gitUser !== "") {
     localStorage.setItem('user', gitUser);
@@ -14,9 +14,16 @@ function readUser(e) {
   }
 }
 
+function clearUser() {
+  console.log("User Logged Out.")
+  localStorage.clear();
+  location.reload();
+}
+
 
 if (localStorage.user !== undefined) {
   $('#gitForm').hide()
 }
 
-$('#git-button').on('click', readUser)
+$('#git-button').on('click', readUser);
+$('#logout').on ('click', clearUser);
