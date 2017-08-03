@@ -23,13 +23,23 @@ var app = app || {};
       .then(console.log)
       .then(callback);
   };
+  let userNotes = [];
+  const successCallback = function(data) {
+    userNotes = data;
+    console.log(userNotes);
+
+  }
+
+  const errorCallback = function(err) {
+    console.error(err);
+  }
 
   User.findWhere = function(userNameField, thisUser, callback) {
     $.get('/notes/find', {
         field: userNameField,
         val: thisUser
       })
-      .then(console.log)
+      .then(successCallback, errorCallback)
   };
 
 
