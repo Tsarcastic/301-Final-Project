@@ -8,7 +8,7 @@ const requestProxy = require('express-request-proxy');
 const PORT = process.env.PORT;
 const app = express();
 
-conString = process.env.DATABASE_URL;
+let conString = process.env.DATABASE_URL;
 
 
 const client = new pg.Client(conString);
