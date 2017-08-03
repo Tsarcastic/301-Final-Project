@@ -31,6 +31,7 @@
 
   <!-- Handlbars.js Templates
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Katas Handlebar Template -->
   <script id="address-template" type="text/x-handlebars-template">
     {{#each kata}}
     <div class="three columns">
@@ -39,7 +40,7 @@
     </div>
     {{/each}}
   </script>
-  <!-- Notes  handelbar Templates-->
+  <!-- Notes Handelbar Templates-->
   <script id="note-template" type="text/x-handlebars-template">
     <div class="three columns">
       <h4>{{title}}</h4>
@@ -47,6 +48,7 @@
     </div>
   </script>
 
+<!-- Repos Handlebar Template -->
   <script id="fNote-template" type="text/x-handlebars-template">
     <div class="twelve columns">
       <h4>{{title}}</h4>
@@ -55,12 +57,11 @@
     </div>
   </script>
 
-
   <script id="repo-template" type="text/x-handlebars-template">
     {{#each repository}}
     <div class="three columns">
       <h4>{{name}}</h4>
-      <a href="{{html_url}}" target="_blank"><p>GO!</p></a>
+      <a href="{{html_url}}" target="_blank">GO!</a>
     </div>
     {{/each}}
   </script>
