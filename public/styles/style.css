@@ -39,7 +39,9 @@ img {
 }
 
 #logo {
-  width: 30%;
+  width: 50%;
+  margin-top: 5%;
+  margin: auto;
 }
 
 /*//NAV STUFF//*/
@@ -65,6 +67,13 @@ nav i.fa.fa-navicon {
 }
 
 @media (min-width: 1000px) {
+
+  #logo {
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+  }
+
   nav, nav ul, nav ul li {
     position: relative;
   }
@@ -112,6 +121,10 @@ iframe {
   text-align: center;
   background-color: #dedede;
 }
+#allNotes h4{
+  color: #ff7f00;
+  font-weight: bold;
+}
 
 #notes a {
   border-radius: 5px;
@@ -145,15 +158,18 @@ iframe {
 }
 
 .three h4 {
+  font-size: 1.5em;
   margin: 0;
+  margin-bottom: 10%;
 }
 
-.three p,a {
-  margin: 0 auto;
+.three a,p {
+  /*margin: 0 auto;*/
   font-weight: bold;
   border-radius: 5px;
   background-color: white;
   color: #ff7f00;
+
 }
 .three{
   margin-bottom: 3%;
