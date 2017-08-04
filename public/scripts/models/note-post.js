@@ -12,7 +12,6 @@ var app = app || {};
     this.title = title;
     this.category = category;
     this.body = body;
-    console.log(this.userName);
   }
 
   User.prototype.createUser = function(callback) {
@@ -29,7 +28,6 @@ var app = app || {};
 
   const successCallback = function(data) {
     userNotes = data;
-    console.log(userNotes);
     User.renderNotes();
     User.renderAll();
     $('#allNotes').hide()
@@ -40,7 +38,6 @@ var app = app || {};
   }
 
   var fNoteTemplate = Handlebars.compile($('#note-template').html());
-  console.log(userNotes)
 
   User.findWhere = function(userNameField, thisUser, callback) {
     $.get('/notes/find', {
@@ -55,7 +52,6 @@ var app = app || {};
     for (var i = userNotes.length - 1; i > userNotes.length - 4; i--) {
       recentNotes.push(userNotes[i]);
 
-      console.log(userNotes[i])
       $('#noteAppend').append(noteTemplate({
         title: userNotes[i].title,
         category: userNotes[i].category,
@@ -68,7 +64,6 @@ var app = app || {};
 
   User.renderAll = function() {
     let fNoteTemplate = Handlebars.compile($('#fNote-template').html())
-    console.log(userNotes)
     for (let i = 0; i < userNotes.length; i++) {
       $('#allNotes').append(fNoteTemplate( {
         title: userNotes[i].title,
@@ -79,7 +74,6 @@ var app = app || {};
   }
 
   User.switchView = function() {
-    console.log('its listening')
     if ($('#noteAppend').is(':visible')) {
       $('#noteAppend').hide();
       $('#allNotes').show();

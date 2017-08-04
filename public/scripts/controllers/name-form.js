@@ -8,7 +8,6 @@ function readUser() {
   var gitUser = userForm.gitUN.value;
   if (gitUser !== "") {
     localStorage.setItem('user', gitUser);
-    console.log(gitUser + ' recorded as the user.')
     $('#gitForm').hide()
     location.reload();
   } else {
