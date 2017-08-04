@@ -9,7 +9,6 @@
   // LOAD AND RENDER
   const successCallback = function(data) {
     reposAll = data;
-    console.log(reposAll);
     repos.sortAll()
   }
 
@@ -24,7 +23,6 @@
     for (let i = 0; i < 3; i++) {
       recent.push(reposAll[i])
     }
-    console.log(recent);
     $('#repos').html(template({
       repository: recent
     }))
@@ -32,7 +30,6 @@
 
   repos.getRepos = () => {
     if(localStorage.getItem('user')){
-    console.log('getting!')
     $.ajax({
       url: `https://api.github.com/users/${(gitID)}/repos`,
       method: 'GET',
@@ -42,7 +39,6 @@
   }
 
   repos.sortAll = function() {
-    console.log(reposAll);
     reposAll.sort((a, b) => (new Date(b.updated_at)) - (new Date(a.updated_at)))
     renderRepos();
   }

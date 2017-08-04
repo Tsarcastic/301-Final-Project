@@ -40,8 +40,7 @@ app.get('/notes/find', (request, response) => {
 })
 
 app.post('/user', function(request, response) {
-  console.log('REQUEST RECIEVED');
-  console.log(request.body);
+  console.log('REQUEST RECEIVED');
   client.query(
     'INSERT INTO users(user_name) VALUES($1) ON CONFLICT DO NOTHING', [request.body.userName],
     function(err) {

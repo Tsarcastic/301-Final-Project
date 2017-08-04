@@ -4,7 +4,6 @@ function readData(e) {
 
   if( $('#body').val() === '') {
     e.preventDefault();
-    console.log('The null value is working');
     alert('You need to enter notes in the body')
   } else {
     let person = localStorage.getItem('user');
@@ -14,9 +13,7 @@ function readData(e) {
     localStorage.setItem('user', person);
     let newUser = new app.User(person,title,category
       ,body);
-      console.log(newUser);
       newUser.createUser();
-      console.log(person + ' recorded as the user.')
     }
   }
 
