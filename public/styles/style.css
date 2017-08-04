@@ -90,9 +90,7 @@ nav i.fa.fa-navicon {
 nav:hover ul {
   display: block;
 }
-nav ul {
-  display: none;
-}
+
 
 /*MAIN CONTENT STYLING*/
 a {
@@ -124,6 +122,10 @@ iframe {
 #allNotes h4{
   color: #ff7f00;
   font-weight: bold;
+}
+
+#allNotes p {
+  color:black;
 }
 
 #notes a {
